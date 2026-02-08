@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 102, 255, 0.137);
+}
+
+.navbar img {
+  width: 50px;
+  height: 60px;
+}
+
+.navbar h3 {
+  color: black;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 40px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.navbar ul a {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar .search input {
+  height: 2rem;
+  width: auto;
+  border-radius: 20%;
+  background-color: rgba(0, 255, 255, 0.075);
+}
+
+.navbar ul a:hover {
+  padding: 30px 50px;
+  color: black;
+  background-color: rgb(0, 25, 139);
+  font-style: italic;
+}
+
+/* Hero section Body of the dcode */
+.hero {
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  background-image: url(./Assets/Hero\ 1.jpg);
+  padding-top: 100px;
+  flex-direction: column;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+}
+.hero h1 {
+  justify-content: center;
+  align-content: center;
+}
+
+.hero p {
+  justify-content: center;
+  align-content: center;
+  font-style: italic;
+}
+
+.hero .button {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+.hero button {
+  gap: 50px;
+  border: none;
+  color: white;
+  background-color: crimson;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 50px;
+}
+
+.hero .btns {
+  color: aliceblue;
+  background-color: blue;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 50px;
+}
+
+.hero .btns:hover {
+  background-color: chocolate;
+  font-style: italic;
+  border-radius: 30%;
+}
+.hero button:hover {
+  background-color: brown;
+  font-style: italic;
+  border-radius: 30%;
+}

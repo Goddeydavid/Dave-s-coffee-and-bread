@@ -7,7 +7,7 @@
 .navbar {
   display: flex;
   justify-content: space-around;
-  background-color: rgba(0, 102, 255, 0.137);
+  background-color: rgba(255, 166, 0, 0.096);
 }
 
 .navbar img {
@@ -29,14 +29,26 @@
 }
 
 .navbar ul a {
-  color: black;
+  color: aliceblue;
   text-decoration: none;
+}
+
+.navbar .search {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .search img {
+  height: 20px;
+  width: 10px;
+  border: none;
+  cursor: pointer;
 }
 
 .navbar .search input {
   height: 2rem;
   width: auto;
-  border-radius: 20%;
+  border-radius: 35%;
   background-color: rgba(0, 255, 255, 0.075);
 }
 
@@ -52,22 +64,34 @@
   height: 100vh;
   justify-content: center;
   display: flex;
-  background-image: url(./Assets/Hero\ 1.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.973)),
+    url(./Assets/Hero\ 1.jpg);
+
   padding-top: 100px;
   flex-direction: column;
   background-position: center;
   background-size: cover;
   align-items: center;
+  color: white;
+}
+.herotext{
+  display: flex;
+  flex-direction: column;
+  width: 120vb;
 }
 .hero h1 {
   justify-content: center;
   align-content: center;
+  font-size: 140px;
+  line-height: 0.9;
 }
 
 .hero p {
   justify-content: center;
   align-content: center;
   font-style: italic;
+  font-size: 20px;
 }
 
 .hero .button {
@@ -107,4 +131,44 @@
   background-color: brown;
   font-style: italic;
   border-radius: 30%;
+}
+
+/* Section 2 of our main body  */
+.second {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-content: first baseline;
+  height: 100vh;
+  gap: 15rem;
+  color: rgba(213, 240, 140, 0);
+  background-image: url(./Assets/Second.jpg);
+  background-position: center;
+}
+
+.pastry img {
+  display: flex;
+  justify-content: baseline;
+  align-content: first baseline;
+  height: 50vh;
+  width: 40vb;
+}
+
+.pastry span {
+  color: rgb(196, 3, 3);
+}
+
+/* third section of our main body  */
+.third {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  background-image: url(./Assets/third.jpg);
+  background-position: center;
+}
+.third img {
+  height: 50vh;
+  width: 50vb;
+  display: flex;
 }
